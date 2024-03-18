@@ -84,6 +84,18 @@ ____
 [How to center cards in bootstrap 4? | StackOverflow](https://stackoverflow.com/questions/39031224/how-to-center-cards-in-bootstrap-4)
 ____
 
+Select all child elements.
+
+```css
+parentSelector > * {
+  // CSS Styles
+}
+```
+
+[How to select all child elements recursively using CSS? | geeks4geeks.org](https://www.geeksforgeeks.org/how-to-select-all-child-elements-recursively-using-css/)
+
+____
+
 ## References
 
 center bootstrap div [mdbootstrap](https://mdbootstrap.com/docs/b4/jquery/utilities/horizontal-align/)
