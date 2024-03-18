@@ -24,6 +24,12 @@ ____
 git update-index --skip-worktree <file>
 ```
 
+To cancel
+
+```bash
+git update-index --no-skip-worktree <file>
+```
+
 Update, a better option [How do I make Git forget about a file that was tracked, but is now in .gitignore? | StackOverflow](https://stackoverflow.com/questions/1274057/how-do-i-make-git-forget-about-a-file-that-was-tracked-but-is-now-in-gitignore)
 
 ## References
