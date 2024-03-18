@@ -1,5 +1,16 @@
 # WebAssignment1v3
+
+## Description
+
 WebAssignment1v3
+
+## Content
+
+### commands
+
+```bash
+$ git rm index.html --cached
+```
 
 ## References
 
