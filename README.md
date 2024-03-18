@@ -123,6 +123,16 @@ ____
 
 ____
 
+### Center Oversized Image in div
+
+#### Failed Attempt
+
+[How to avoid overflow of a bootstrap card image in card-body?](https://stackoverflow.com/questions/72150450/how-to-avoid-overflow-of-a-bootstrap-card-image-in-card-body)
+
+____
+
+#### Successful Attempt
+
 ```css
 .parent {
     position: relative;
