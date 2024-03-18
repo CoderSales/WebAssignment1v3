@@ -1,21 +1,28 @@
-#row1 {
-    height: 5vh;
-}
-#row2 {
-    background-image: linear-gradient(white,lightblue); 
-    height: 30vh;
-}
-#row3 {
-    background-image: linear-gradient(lightblue, darkblue);
-    height: 65vh;
-}
+@media only screen and (max-width: 460px) {
+    body {
+      background-color: white;
+    }
 
-.card {
-    margin: 0 auto; /* Added */
-    float: none; /* Added */
-    margin-bottom: 10px; /* Added */
-}
+    #row1 {
+        height: 5vh;
+    }
+    #row2 {
+        background-image: linear-gradient(white,lightblue); 
+        height: 30vh;
+    }
+    #row3 {
+        background-image: linear-gradient(lightblue, darkblue);
+        height: 65vh;
+    }
 
-div.card > * {
-    text-align: center;
+    .card {
+        margin: 0 auto; /* Added */
+        float: none; /* Added */
+        margin-bottom: 10px; /* Added */
+    }
+
+    div.card > * {
+        text-align: center;
+    }
+
 }
