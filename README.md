@@ -4,13 +4,19 @@
 
 WebAssignment1v3
 
-## Content
+## Content with references
 
 ### commands
 
 ```bash
 $ git rm index.html --cached
 ```
+
+filename can then be added to the .gitignore file
+
+Google Search: [stop tracking a file in git that was previously tracked](https://www.google.com/search?q=stop+tracking+a+file+in+git+that+was+previously+tracked&oq=stop+tracking+a+file+in+git+that+was+previously+tracked&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigAdIBCDk1NjZqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8)
+
+[To stop tracking a file that is currently tracked | git-scm.com](https://git-scm.com/docs/gitignore#:~:text=To%20stop%20tracking%20a%20file,being%20reintroduced%20in%20later%20commits.)
 
 ## References
 
