@@ -21,7 +21,7 @@ body div #part2of2 {
     background-image: linear-gradient(down, blue, white);
 } */
 
-/* #row1 {
+#row1 {
     height: 5vh;
 }
 #row2 {
@@ -31,4 +31,4 @@ body div #part2of2 {
 #row3 {
     background-image: linear-gradient(lightblue, darkblue);
     height: 65vh;
-} */
+}
