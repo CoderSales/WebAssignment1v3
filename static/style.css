@@ -79,3 +79,14 @@ div.card > * {
 .list-group-item-img1 {
     height: 10rem;
 }
+
+/*  */
+/* scale image responsively */
+
+img {
+
+    max-width: 90vw;
+    
+    height: auto;
+    
+}
