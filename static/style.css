@@ -1,4 +1,4 @@
-#lin_grad {
+/* #lin_grad {
     height: 100vh;
     background-image: linear-gradient(lightblue, darkblue);
 }
@@ -19,9 +19,9 @@ body {
 body div #part2of2 {
     background-color:purple;
     background-image: linear-gradient(down, blue, white);
-}
+} */
 
-#row1 {
+/* #row1 {
     height: 5vh;
 }
 #row2 {
@@ -31,4 +31,11 @@ body div #part2of2 {
 #row3 {
     background-image: linear-gradient(lightblue, darkblue);
     height: 65vh;
+} */
+body {
+    background-color: blue;
+}
+
+p {
+    color: red;
 }
