@@ -121,6 +121,29 @@ ____
 
 [HTML Images | W3Schools](https://www.w3schools.com/html/html_images.asp)
 
+____
+
+```css
+.parent {
+    position: relative;
+    overflow: hidden;
+    //optionally set height and width, it will depend on the rest of the styling used
+}
+
+.child {
+    position: absolute;
+    top: -9999px;
+    bottom: -9999px;
+    left: -9999px;
+    right: -9999px;
+    margin: auto;
+
+}
+```
+
+[Center Oversized Image in Div | StackOverflow](https://stackoverflow.com/questions/14562457/center-oversized-image-in-div)
+
+____
 
 ## References
 
