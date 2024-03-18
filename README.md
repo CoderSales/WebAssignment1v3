@@ -97,9 +97,9 @@ parentSelector > * {
 ____
 
 ```css
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 460px) {
   body {
-    background-color: lightblue;
+    background-color: white;
   }
 }
 ```
