@@ -15,3 +15,7 @@
     float: none; /* Added */
     margin-bottom: 10px; /* Added */
 }
+
+div.card > * {
+    text-align: center;
+}
