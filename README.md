@@ -32,6 +32,10 @@ git update-index --no-skip-worktree <file>
 
 Update, a better option [How do I make Git forget about a file that was tracked, but is now in .gitignore? | StackOverflow](https://stackoverflow.com/questions/1274057/how-do-i-make-git-forget-about-a-file-that-was-tracked-but-is-now-in-gitignore)
 
+____
+
+[VSCode setting to disable git status colors in editor gutter [duplicate] | StackOVerflow](https://stackoverflow.com/questions/45880172/vscode-setting-to-disable-git-status-colors-in-editor-gutter)
+
 ## References
 
 center bootstrap div [mdbootstrap](https://mdbootstrap.com/docs/b4/jquery/utilities/horizontal-align/)
