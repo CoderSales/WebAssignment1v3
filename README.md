@@ -18,6 +18,10 @@ Google Search: [stop tracking a file in git that was previously tracked](https:/
 
 [To stop tracking a file that is currently tracked | git-scm.com](https://git-scm.com/docs/gitignore#:~:text=To%20stop%20tracking%20a%20file,being%20reintroduced%20in%20later%20commits.)
 
+```bash
+git update-index --skip-worktree <file>
+```
+
 Update, a better option [How do I make Git forget about a file that was tracked, but is now in .gitignore? | StackOverflow](https://stackoverflow.com/questions/1274057/how-do-i-make-git-forget-about-a-file-that-was-tracked-but-is-now-in-gitignore)
 
 ## References
