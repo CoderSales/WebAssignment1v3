@@ -1,4 +1,17 @@
-@media only screen and (max-width: 460px) {
+/* centers card on page: */
+.card {
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+}
+
+/* centers all elements within the card: */
+div.card > * {
+    text-align: center;
+}
+
+/* above 460px the screen background-color is a blue white gradient: */
+@media only screen and (min-width: 460px) {
     body {
       background-color: white;
     }
@@ -13,6 +26,13 @@
     #row3 {
         background-image: linear-gradient(lightblue, darkblue);
         height: 65vh;
+    }
+}
+
+/* up to 460px the screen background-color is white: */
+@media only screen and (max-width: 460px) {
+    body {
+      background-color: white;
     }
 
     .card {
