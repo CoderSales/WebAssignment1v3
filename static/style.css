@@ -1,26 +1,3 @@
-/* #lin_grad {
-    height: 100vh;
-    background-image: linear-gradient(lightblue, darkblue);
-}
-
-body {
-    height: 100vh;
-    background-image: linear-gradient(lightblue, darkblue);
-}
-
-#lin_grad {
-    background-image: linear-gradient(down, blue, white);
-    height:500px;
-    border-color: blue;
-    border-width: 2;
-    border-style: solid;
-    padding:20px;
-}
-body div #part2of2 {
-    background-color:purple;
-    background-image: linear-gradient(down, blue, white);
-} */
-
 #row1 {
     height: 5vh;
 }
