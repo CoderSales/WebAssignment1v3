@@ -81,7 +81,7 @@ ____
 }
 ```
 
-[How to center cards in bootstrap 4?](https://stackoverflow.com/questions/39031224/how-to-center-cards-in-bootstrap-4)
+[How to center cards in bootstrap 4? | StackOverflow](https://stackoverflow.com/questions/39031224/how-to-center-cards-in-bootstrap-4)
 ____
 
 ## References
