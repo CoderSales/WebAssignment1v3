@@ -96,6 +96,17 @@ parentSelector > * {
 
 ____
 
+```css
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+```
+
+[What is a Media Query? | W3Schools.com](https://www.w3schools.com/css/css_rwd_mediaqueries.asp)
+____
+
 ## References
 
 center bootstrap div [mdbootstrap](https://mdbootstrap.com/docs/b4/jquery/utilities/horizontal-align/)
