@@ -54,3 +54,28 @@ div.card > * {
     margin-bottom: 10px; /* Added */    
     text-align: center;
 }
+
+
+.parent {
+    position: relative;
+    /* overflow: hidden; */
+    /* optionally set height and width, it will depend on the rest of the styling used */
+}
+
+.child {
+    position: absolute;
+    top: -9999px;
+    bottom: -9999px;
+    left: -9999px;
+    right: -9999px;
+    margin: auto;
+
+}
+
+/* .list-group-item {
+    height: 10em;
+} */
+
+.list-group-item-img1 {
+    height: 10rem;
+}
