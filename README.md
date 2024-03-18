@@ -155,6 +155,25 @@ ____
 
 ____
 
+### Scale Image Responsively
+
+An image can be made responsive by using CSS and setting the width of the image to be a percentage of its parent container, rather than a fixed pixel value. This way, when the size of the parent container changes (e.g. due to different screen sizes), the size of the image will also change proportionally.
+
+```css
+img {
+
+max-width: 100%;
+
+height: auto;
+
+}
+
+```
+
+[How to make images responsive | Browser Stack](https://www.browserstack.com/guide/how-to-make-images-responsive#:~:text=An%20image%20can%20be%20made,image%20will%20also%20change%20proportionally.)
+
+____
+
 ## References
 
 center bootstrap div [mdbootstrap](https://mdbootstrap.com/docs/b4/jquery/utilities/horizontal-align/)
