@@ -34,6 +34,41 @@ Update, a better option [How do I make Git forget about a file that was tracked,
 
 ____
 
+code quote:
+
+```json
+ "workbench.colorCustomizations": {
+
+  "editorGutter.addedBackground": "#333",
+  "editorGutter.deletedBackground": "#333",
+  "editorGutter.modifiedBackground": "#333",
+  "editor.background": "#333",
+ }
+```
+
+modified color to match current vscode settings:
+
+```json
+ "workbench.colorCustomizations": {
+
+    "editorGutter.addedBackground": "#202020",
+    "editorGutter.deletedBackground": "#202020",
+    "editorGutter.modifiedBackground": "#202020",
+    "editor.background": "#202020",
+ }
+```
+
+Summary:
+
+change background color from:
+#333 (light grey / black)
+to
+#202020 (darker black)
+
+Procedure:
+
+Settings > Search: workbench.colorCustomizations > click: edit in settings.json > paste code quote > edit colors to #202020
+
 [VSCode setting to disable git status colors in editor gutter [duplicate] | StackOVerflow](https://stackoverflow.com/questions/45880172/vscode-setting-to-disable-git-status-colors-in-editor-gutter)
 
 ## References
