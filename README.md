@@ -107,6 +107,16 @@ ____
 [What is a Media Query? | W3Schools.com](https://www.w3schools.com/css/css_rwd_mediaqueries.asp)
 ____
 
+On Windows OS, the forward-slash (/) wasn't working, so I switched to back-slash (\) and that fixed it. For example, try using the following:
+
+```html
+"..\..\index.html"
+```
+
+[How do I put a hyperlink to "two levels above in the directory tree"? | StackOverflow](https://stackoverflow.com/questions/7051735/how-do-i-put-a-hyperlink-to-two-levels-above-in-the-directory-tree#:~:text=to%20go%20two%20level%20up,to%20go%20more%20levels%20up.&text=You%20can%20use%20..%2Findex.)
+____
+
+
 ## References
 
 center bootstrap div [mdbootstrap](https://mdbootstrap.com/docs/b4/jquery/utilities/horizontal-align/)
