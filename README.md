@@ -117,6 +117,10 @@ On Windows OS, the forward-slash (/) wasn't working, so I switched to back-slash
 
 ____
 
+### Images
+
+[HTML Images | W3Schools](https://www.w3schools.com/html/html_images.asp)
+
 
 ## References
 
