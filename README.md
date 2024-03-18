@@ -3,4 +3,4 @@ WebAssignment1v3
 
 ## References
 
-[mdbootstrap](https://mdbootstrap.com/docs/b4/jquery/utilities/horizontal-align/)
+center bootstrap div [mdbootstrap](https://mdbootstrap.com/docs/b4/jquery/utilities/horizontal-align/)
