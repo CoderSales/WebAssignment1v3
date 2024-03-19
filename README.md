@@ -287,6 +287,75 @@ ____
 
 ____
 
+### Attempt to make Bootstrap Navbar Responsive
+
+____
+
+[Bootstrap Navbar Active Disabled | freecodecamp.org](https://forum.freecodecamp.org/t/bootstrap-navbar-active-disabled/33111/2)
+
+____
+
+```html
+<div id="topheader">
+  <nav class="navbar navbar-default">
+		<div class="container-fluid">
+			 <div class="navbar-header">
+				  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+				  </button>
+				  <a class="navbar-brand" href="#">Brand</a>
+			 </div>
+			 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				  <ul class="nav navbar-nav">
+						<li class="active"><a href="#home">home<span class="sr-only">(current)</span></a></li>
+						<li><a href="#page1">page 1</a></li>
+						<li><a href="#page2">page 2</a></li>
+						<li><a href="#page3">page 3</a></li>
+				  </ul>
+				  <ul class="nav navbar-nav navbar-right">
+						<li><a href="#">Link</a></li>
+				  </ul>
+			 </div>
+		</div>
+  </nav>
+</div>
+```
+
+```css
+#topheader .navbar-nav li > a {
+	text-transform: capitalize;
+	color: #333;
+	transition: background-color .2s, color .2s;
+	
+	&:hover,
+	&:focus {
+		background-color: #333;
+		color: #fff;
+	}
+}
+
+#topheader .navbar-nav li.active > a {
+	background-color: #333;
+	color: #fff;
+}
+```
+
+```javascript
+$( '#topheader .navbar-nav a' ).on( 'click', function () {
+	$( '#topheader .navbar-nav' ).find( 'li.active' ).removeClass( 'active' );
+	$( this ).parent( 'li' ).addClass( 'active' );
+});
+```
+
+[Bootstrap Navbar Change Active Class Link [codepen.io]](https://codepen.io/gearmobile/pen/bByZdG)
+____
+
+[How to make a .nav-link inactive?](https://stackoverflow.com/questions/15648329/how-to-make-a-nav-link-inactive)
+____
+
 ## References
 
 center bootstrap div [mdbootstrap](https://mdbootstrap.com/docs/b4/jquery/utilities/horizontal-align/)
