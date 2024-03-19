@@ -25,7 +25,11 @@ div.card > * {
     }
     #row3 {
         background-image: linear-gradient(lightblue, darkblue);
-        height: 65vh;
+        height: 64vh;
+    }
+    #row4 {
+        background-color: darkblue;
+        height: 1vh;
     }
 }
 
