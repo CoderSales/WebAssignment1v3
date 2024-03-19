@@ -378,6 +378,15 @@ Add JavaScript CDN
 [Bootstrap Documentation](https://getbootstrap.com/docs/5.3/components/navbar/)
 
 
+<hr>
+
+<a href="https://stackoverflow.com/questions/69140350/how-to-display-html-code-without-rendering-on-page#:~:text=You%20can%20show%20HTML%20tags,you%20want%20to%20be%20visible.">How to Add HTML code unrendered</a>
+
+<p>
+    You can show HTML tags as plain text in HTML on a website or webpage by replacing < with &lt; or &60; and > with &gt; or &62; on each HTML tag that you want to be visible.
+</p>
+
+
 ____
 
 ## References
