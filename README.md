@@ -404,3 +404,13 @@ Intermediate Programming - Alrimawi, F.
 Human Computer Interaction - Motti Ader, L.
 
 Requirements - Richardson, I.
+
+____
+
+For GitHub Repository on which this code was developed,
+
+Code development documented on my GitHub:
+
+Code Developed at:
+
+[CoderSales (Stephen) / WebAssignment1v3](https://github.com/CoderSales/WebAssignment1v3)
