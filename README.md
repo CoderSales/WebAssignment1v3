@@ -357,6 +357,24 @@ ____
 
 ____
 
+### Fix Bootstrap navbar
+
+#### Summary
+
+Add JS CDN link
+
+[navbar Bootstrap](https://getbootstrap.com/docs/5.1/components/navbar/)
+
+Add JavaScript CDN
+
+```javascript
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+```
+
+[Bootstrap Documentation](https://getbootstrap.com/)
+
+____
+
 ## References
 
 center bootstrap div [mdbootstrap](https://mdbootstrap.com/docs/b4/jquery/utilities/horizontal-align/)
