@@ -354,6 +354,7 @@ $( '#topheader .navbar-nav a' ).on( 'click', function () {
 ____
 
 [How to make a .nav-link inactive?](https://stackoverflow.com/questions/15648329/how-to-make-a-nav-link-inactive)
+
 ____
 
 ## References
